@@ -7,9 +7,10 @@ h1{
 	font-weight: 700;
 	color: white;
 }
-h3{
+h3,h6{
 	padding: 10px;
 	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
 }
 .card p{
 	font-family: 'Roboto', sans-serif;
@@ -17,7 +18,6 @@ h3{
 	padding: 15px;
 }
 .background{
-	
 	padding: 20px;
 }
 .card{
@@ -44,6 +44,44 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+footer {
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.9),
+		rgba(0, 0, 0, 0.7)
+		),url('../img/teal.jpg');
+
+    min-height: 180px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer p{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px; 
+}
+/***  desired colors for svg  ***/
+.footer-icons{
+  color: white;
+}
+.footer-icons:hover{
+  color: Lightblue;
+}
+
+.footer-icons svg{
+  max-height: 64px;
+  width: auto;
+  display: inline;
+}
+
+/****  magic trick  *****/
+.footer-icons svg path{
+  fill: currentcolor;
+}
+
 #profile{
 	height: 200px;
 }
@@ -55,4 +93,7 @@ h3{
 	padding: 20px;
 	margin: 20px;
 	margin: auto;
+}
+.content{
+	margin: 20px;
 }
