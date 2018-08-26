@@ -1,5 +1,23 @@
+body{
+	background-color: black;
+}
+h1{
+	font-family: 'Exo', sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	color: white;
+}
+h3{
+	padding: 10px;
+	font-family: 'PT Sans', sans-serif;
+}
+.card p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	padding: 15px;
+}
 .background{
-	background-color: Lightblue;
+	
 	padding: 20px;
 }
 .card{
@@ -7,5 +25,34 @@
 }
 .card img{
 	height: 150px;
+	margin: auto;
+}
+.parallax {
+	/* The image used */
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0)
+		),url('../img/bogota.jpg');
+
+
+	/* Set a specific height */
+	min-height: 500px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#profile{
+	height: 200px;
+}
+#description{
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	margin: 20px;
 	margin: auto;
 }
