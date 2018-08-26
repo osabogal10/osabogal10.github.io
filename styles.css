@@ -13,7 +13,8 @@ h3,h6{
 	font-weight: 700;
 }
 .card p{
-	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
 	padding: 15px;
 }
@@ -48,9 +49,7 @@ footer {
 	background-image: linear-gradient(
 		rgba(0, 0, 0, 0.9),
 		rgba(0, 0, 0, 0.7)
-		),url('../img/teal.jpg');
-
-    min-height: 180px; 
+		),url('../img/teal.jpg'); 
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -65,23 +64,32 @@ footer p{
 }
 /***  desired colors for svg  ***/
 .footer-icons{
-  color: white;
+	color: white;
 }
 .footer-icons:hover{
-  color: Lightblue;
+	color: Lightblue;
 }
 
 .footer-icons svg{
-  max-height: 64px;
-  width: auto;
-  display: inline;
+	max-height: 64px;
+	width: auto;
+	display: inline;
 }
 
 /****  magic trick  *****/
 .footer-icons svg path{
-  fill: currentcolor;
+	fill: currentcolor;
 }
-
+.footer-fixed{
+	height: 50px;
+	background-color: Teal;
+}
+.cont-carrousel{
+	height: 850px;
+}
+.sep{
+	min-height: 30px;
+}
 #profile{
 	height: 200px;
 }
