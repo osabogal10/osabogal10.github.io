@@ -5,17 +5,18 @@
 	<title>Orlando Sabogal</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Exo|Ubuntu|PT+Sans|Roboto" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Exo|Ubuntu|PT+Sans" rel="stylesheet"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 		<div class="navbar-expand" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
 				<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="#">Features</a>
-				<a class="nav-item nav-link" href="#">Pricing</a>
-				<a class="nav-item nav-link disabled" href="#">Disabled</a>
+				<a class="nav-item nav-link" href="#education">Education</a>
+				<a class="nav-item nav-link" href="#languages">Languages</a>
+				<a class="nav-item nav-link" href="#skills">Skills</a>
+				<a class="nav-item nav-link" href="#more-about-me">More about Me</a>
 			</div>
 		</div>
 	</nav>
@@ -24,7 +25,7 @@
 			<div class="container-fluid text-center">
 				<h1>Orlando Sabogal Rojas</h1>
 				<img id="profile" class="rounded-circle" src="/img/profile.png" alt="">
-				<div class="container" id="description">
+				<div class="container description" id="general">
 					<p>I am in my 8th semester of undergraduate studies in systems engineering and computer science at the Universidad de los Andes, Colombia. <br>
 						I live with my mom, my brother and my two dogs. <br>
 					I am interested in mobile development, IoT and in the last few months I have discovered a great curiosity in Machine Learning and related topics.</p>
@@ -35,7 +36,7 @@
 		<!-- Header  -->
 	</div>
 	<div class="content">
-		<div class="container background text-center">
+		<div class="container background text-center" id="education">
 			<div class="row">   
 				<div class="col-sm-4"> 
 					<div class="card">
@@ -60,7 +61,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container background text-center">
+		<div class="container background text-center" id="languages">
 			<div class="row">
 				<!-- Languages -->
 				<div class="col-sm-4">
@@ -86,7 +87,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container text-center">
+		<div class="container text-center" id="skills">
 			<!-- Skills -->
 			<div class="row">
 				<div class="col-sm">
@@ -177,7 +178,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container cont-carrousel align-items-center align-middle"> 
+	<div class="container cont-carrousel align-items-center align-middle" id="more-about-me"> 
 		<!-- More about me -->
 		<div class="row sep"></div>
 		<div class="row">
@@ -191,28 +192,28 @@
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img class="d-block w-100" src="/img/milky.jpg" alt="First slide">
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption d-none d-md-block description">
 							<h5>My favorite band</h5>
 							<p>My musical tastes are very varied but I'm sure my favorite band is a German folk/rock band called Milky Chance.</p>
 						</div>
 					</div>
 					<div class="carousel-item">
 						<img class="d-block w-100" src="/img/ets2.jpg" alt="Second slide">
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption d-none d-md-block description">
 							<h5>VideoGames</h5>
 							<p>In my free time I like to play video games. I like almost all genres but I find driving simulators very relaxing.</p>
 						</div>
 					</div>
 					<div class="carousel-item">
 						<img class="d-block w-100" src="/img/hardware.jpg" alt="Third slide">
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption d-none d-md-block description">
 							<h5>PC and Mobile hardware</h5>
 							<p>I like to keep up to date on the latest advances in hardware for pc and mobile devices.Probably I can guide you if you need to buy a new device</p>
 						</div>
 					</div>
 					<div class="carousel-item">
 						<img class="d-block w-100" src="/img/tesla.jpg" alt="Fourth slide">
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption d-none d-md-block description">
 							<h5>Tesla</h5>
 							<p>I find incredible the revolution that is taking place in electric mobility. I hope someday I can have a Tesla.</p>
 						</div>

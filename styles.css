@@ -90,14 +90,16 @@ footer p{
 .sep{
 	min-height: 30px;
 }
+#general{
+	font-size: 30px;
+}
 #profile{
 	height: 200px;
 }
-#description{
+.description{
 	background: rgba(0, 0, 0, 0.5);
 	color: white;
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 30px;
 	padding: 20px;
 	margin: 20px;
 	margin: auto;
