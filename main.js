@@ -1,9 +1,9 @@
 function changeColor(){
-  if (document.getElementById('body').style.backgroundColor === 'Black') {
-    document.getElementById('body').style.backgroundColor = 'GhostWhite'
+  if (document.getElementById('body').style.backgroundColor === 'black') {
+    document.getElementById('body').style.backgroundColor = 'ghostWhite'
   }
   else{
-    document.getElementById('body').style.backgroundColor = 'Black';
+    document.getElementById('body').style.backgroundColor = 'black';
   }
   
 }
